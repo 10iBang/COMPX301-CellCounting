@@ -1,0 +1,25 @@
+\documentclass{article}
+
+\title{COMPX301-20A Assignment 4 Report}
+\author{
+	Lee So\\
+	\texttt{1364878}
+	\and
+	Taukoriri Nooti\\
+	\texttt{1322671}
+}
+
+\begin{document}
+	\maketitle
+
+	\section{Methodology}
+	In our construction of the cell-counting program, we made use of the OpenCV + NumPy Python libraries to set up the following image processing pipeline:
+
+	\begin{enumerate}
+		\item Median Filtering
+		\item Simple Binary Thresholding
+		\item Gaussian Filtering x5
+		\item Sharpening
+		\item Region labeling, counting (implemented manually, to comply with assignment constraints)
+	\end{enumerate}
+\end{document}
